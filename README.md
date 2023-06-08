@@ -1,3 +1,5 @@
+[![Project Cover](https://github.com/josephbeller/spectrolene/blob/master/img/spectrolene_cover.png)]
+
 ## Information about the data
 
 The data cannot be shared because of copyright, but it is important to pay attention to the audio files you use to run your analyses.
@@ -22,7 +24,7 @@ or Python Package Index
 Of course, this is not the only way. If you have a working way of converting stereo to mono, please share so we can help other users :)
 
 
-[//] References
+[//]: #References
 
 [applemusic]: <https://support.apple.com/en-us/HT204310>
 [credit: linuxquestions.org]: <https://www.linuxquestions.org/questions/slackware-14/use-sox-to-make-a-file-mono-848072/>
