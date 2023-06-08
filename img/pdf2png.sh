@@ -1,3 +1,3 @@
-convert -density 300 $1.pdf -resize 50% $1.png
+convert -density 250 $1.pdf -resize 20% $1.png
 
 
