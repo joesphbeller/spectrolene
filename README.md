@@ -15,11 +15,11 @@ You can follow this tutorial provided by [Apple][applemusic] to download your mu
 In order to convert from **stereo** to **mono**, you can use *sox*
 First, open a terminal [on Mac][l2] or [on Windows][l3]
 **Run the sox installation:**
-- Using Homebrew on Mac:\
-``` brew install sox  ```\
-- or Linux\
-``` brew install sox  ```\
-- or Python Package Index\
+- Using Homebrew on Mac:
+``` brew install sox  ```
+- or Linux
+``` brew install sox  ```
+- or Python Package Index
 ``` pip install sox ```
 
 **Average the channels in the stereo ([credit: linuxquestions.org])**\
@@ -42,9 +42,10 @@ pip install librosa
 After downloading the files, you can run:
 ``` jupyter notebook ```
 in terminal to open up a file navigation system with an integrated development environment (IDE) to handle the files.\
-For the functions in the code to work without any modification to the code, add them to a folder named data that is located in the same directory as the .ipynb files.
+For the functions in the code to work without any modification to the code, add them to a folder named data that is located in the same directory as the .ipynb files. 
 
 ## Contact
+For any troubleshooting, ideas, or suggestions:
 **Joesph Beller**\
 josdbell@vols.utk.edu\
 josephbeller35@gmail.com
