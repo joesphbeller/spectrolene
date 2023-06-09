@@ -19,7 +19,7 @@ Using Homebrew on Mac:\
 or Linux\
 ``` brew install sox  ```\
 or Python Package Index\
-``` pip install sox ```\
+``` pip install sox ```
 
 **Average the channels in the stereo ([credit: linuxquestions.org])**\
 ``` sox filename.wav -c 1 filename_mono.wav ```
@@ -38,14 +38,14 @@ pip install librosa
 ```
 
 ## Contact
-* Joesph Beller
+**Joesph Beller**\
 josdbell@vols.utk.edu\
-josephbeller35@gmail.com\
+josephbeller35@gmail.com
 
 ## Acknowledgements
-A lot of help was provided by the Python, music, and audio community
-[Top 3 Python packages to learn audio data science][l4]
-[Learning from audio: the mel scale and mel spectrogram and mel frequency cepstral coefficients][l5]
+A lot of help was provided by the Python, music, and audio community\
+[Top 3 Python packages to learn audio data science][l4]\
+[Learning from audio: the mel scale and mel spectrogram and mel frequency cepstral coefficients][l5]\
 Malawey, Victoria. A Blaze of Light in Every Word : Analyzing the Popular Singing Voice. New York, NY: Oxford University Press, 2020. Print.
 
 
