@@ -1,7 +1,7 @@
 ![Project Cover](https://github.com/josephbeller/spectrolene/blob/master/img/spectrolene_cover.png)
 
-#Spectrolene
-Spectrolene is code that was used for a spectral analysis on a selection of Dolly Parton's music from her "Jolene" album. This code can be used on any music for audio analysis as long as the file type is 
+# Spectrolene
+Spectrolene is code that was used for a spectral analysis on a selection of Dolly Parton's music from her "Jolene" album. This code can be used on any music for audio analysis as long as the file type is a mono .wav
 
 ## Information about the data
 
@@ -13,40 +13,39 @@ You can follow this tutorial provided by [Apple][applemusic] to download your mu
 
 In order to convert from **stereo** to **mono**, you can use *sox*
 
-**Run the sox installation:**
-Using Homebrew on Mac:
-``` brew install sox  ```
-or Linux
-``` brew install sox  ```
-or Python Package Index
-``` pip install sox ```
+**Run the sox installation:**\
+Using Homebrew on Mac:\
+``` brew install sox  ```\
+or Linux\
+``` brew install sox  ```\
+or Python Package Index\
+``` pip install sox ```\
 
-**Average the channels in the stereo ([credit: linuxquestions.org])**
+**Average the channels in the stereo ([credit: linuxquestions.org])**\
 ``` sox filename.wav -c 1 filename_mono.wav ```
 
 Of course, this is not the only way. If you have a working way of converting stereo to mono, please share so we can help other users :)
 
-##Python installation
-You can install the latest Python [here][https://www.python.org/downloads/]
-You can open a terminal [on Mac][https://www.youtube.com/watch?v=U8qQup7_nuo] [on Windows][https://www.youtube.com/watch?v=8Iyldhkrh7E]
+## Python installation
+You can install the latest Python [here][l1]\
+You can open a terminal [on Mac][l2] or [on Windows][l3]\
 In terminal, install the following dependencies (or make sure they are installed):
 ```
 pip install numpy
 pip install matplotlib
 pip install scipy
 pip install librosa 
-
 ```
 
 ## Contact
 * Joesph Beller
-josdbell@vols.utk.edu
-josephbeller35@gmail.com
+josdbell@vols.utk.edu\
+josephbeller35@gmail.com\
 
 ## Acknowledgements
 A lot of help was provided by the Python, music, and audio community
-[Top 3 Python packages to learn audio data science][https://towardsdatascience.com/top-3-python-packages-to-learn-audio-data-science-project-cbd11c100fe7]
-[Learning from audio: the mel scale and mel spectrogram and mel frequency cepstral coefficients][https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8#:~:text=Leveraging%20Mel%20Spectrograms%20is%20a,learn%20from%20the%20recorded%20sounds.]
+[Top 3 Python packages to learn audio data science][l4]
+[Learning from audio: the mel scale and mel spectrogram and mel frequency cepstral coefficients][l5]
 Malawey, Victoria. A Blaze of Light in Every Word : Analyzing the Popular Singing Voice. New York, NY: Oxford University Press, 2020. Print.
 
 
@@ -54,5 +53,8 @@ Malawey, Victoria. A Blaze of Light in Every Word : Analyzing the Popular Sin
 
 [applemusic]: <https://support.apple.com/en-us/HT204310>
 [credit: linuxquestions.org]: <https://www.linuxquestions.org/questions/slackware-14/use-sox-to-make-a-file-mono-848072/>
-
-
+[l1]: <https://www.python.org/downloads/>
+[l2]: <https://www.youtube.com/watch?v=U8qQup7_nuo>
+[l3]: <https://www.youtube.com/watch?v=8Iyldhkrh7E>
+[l4]: <https://towardsdatascience.com/top-3-python-packages-to-learn-audio-data-science-project-cbd11c100fe7>
+[l5]: <https://towardsdatascience.com/learning-from-audio-the-mel-scale-mel-spectrograms-and-mel-frequency-cepstral-coefficients-f5752b6324a8#:~:text=Leveraging%20Mel%20Spectrograms%20is%20a,learn%20from%20the%20recorded%20sounds.>
