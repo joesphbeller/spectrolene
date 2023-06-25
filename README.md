@@ -12,7 +12,7 @@ This code is only compatible with **.wav mono** files.
 
 You can follow this tutorial provided by [Apple][applemusic] to download your music as a .wav
 
-In order to convert from **stereo** to **mono**, you can use *sox*
+In order to convert from **stereo** to **mono**, you can use *sox*.\
 First, open a terminal [on Mac][l2] or [on Windows][l3]
 **Run the sox installation:**
 - Using Homebrew on Mac:
